@@ -14,6 +14,7 @@
 		<!--plugin-css-->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/owl.carousel.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 		<link href="../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
 		<!--google-fonts-->
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
@@ -23,7 +24,7 @@
 	</head>
 	<body>
 		<!--Start Header -->
-		<header class="top-header">
+<header class="top-header">
 			<nav class="navbar navbar-expand-lg navbar-light justify-content-right navbar-mobile fixed-top">
 				<div class="container">
 					<a class="navbar-brand" href="index.html"> <img src="images/bforus.png" alt="Logo" width="100" /></a>
@@ -48,13 +49,17 @@
 							<a class="nav-link" href="#" id="Portfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Portfolio</a>
 							
 						</li>
-			
-					
+						
 						<li class="nav-item"> <a class="nav-link" href="">Contact</a> </li>
-					<!-- 	<li class="nav-item"> <a class="nav-link custom-btn lnk btn-main bg-btn" href="#">Get A Quote <span class="circle"></span></a> </li> -->
+				
 					</ul>
 				</div>
-				
+				<div class="mobile-menu">
+					<ul class="mob-nav">
+						
+					<li> <a class="nav-link mobilemenu" href="#" data-toggle="modal" data-target="#menu"><i class="fa fa-bars" aria-hidden="true"></i></a> </li>
+					</ul>
+				</div>
 			</div>
 		</nav>
 	</header>
@@ -265,7 +270,7 @@
   <!--End CTA-->
 	
 	<!--Start Footer-->
-	<footer>
+<footer>
 
 		<div class="footer-svg">
 			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 80" style="enable-background:new 0 0 1920 80;" xml:space="preserve">
@@ -279,15 +284,15 @@
 						<h5>Contact Us</h5>
 						<ul class="footer-address-list">
 							<li>
-								<span><i class="fas fa-envelope"></i></span>
+								<span><i class="fa fa-envelope"></i></span>
 								<p>Email <span> <a href="mailto:bforus.in@gmail.com">BforUS.in@gmail.com</a></span></p>
 							</li>
 							<li>
-								<span><i class="fas fa-phone-alt"></i></span>
-								<p>Phone <span> <a href="tel:+10000000000">+91 8007751564</a></span></p>
+								<span><i class="fa fa-phone"></i></span>
+								<p>Phone <span> <a href="tel:+918007751564">+91 8007751564</a></span></p>
 							</li>
 							<li>
-								<span><i class="fas fa-map-marker-alt"></i></span>
+								<span><i class="fa fa-map-marker"></i></span>
 								<p>Address <span>Kondhwa,Pune IN</span></p>
 							</li>
 						</ul>
@@ -304,9 +309,9 @@
 					<div class="col-lg-3 col-sm-6">
 						<h5>Service</h5>
 						<ul class="footer-address-list link-hover">
-							<li><a href="javascript:void(0)">Website Development</a></li>
-							<li><a href="javascript:void(0)">Mobile App Development</a></li>
-							<li><a href="javascript:void(0)">Graphic Design</a></li>
+							<li><a href="webdevelopment.html">Website Development</a></li>
+							<li><a href="graphicdesign.html">Mobile App Development</a></li>
+							<li><a href="DigitalMarketing.html">Graphic Design</a></li>
 							<li><a href="javascript:void(0)">Digital Marketing</a></li>
 							
 						</ul>
@@ -329,15 +334,7 @@
 					<div class="row">
 						<div class="col-lg-12">
 							<div class="footer-social-media-icons">
-								<a href="javascript:void(0)" target="blank"><i class="fab fa-facebook"></i></a>
-								<a href="javascript:void(0)" target="blank"><i class="fab fa-twitter"></i></a>
-								<a href="javascript:void(0)" target="blank"><i class="fab fa-instagram"></i></a>
-								<a href="javascript:void(0)" target="blank"><i class="fab fa-linkedin"></i></a>
-								<a href="javascript:void(0)" target="blank"><i class="fab fa-youtube"></i></a>
-								<a href="javascript:void(0)" target="blank"><i class="fab fa-pinterest-p"></i></a>
-								<a href="javascript:void(0)" target="blank"><i class="fab fa-vimeo-v"></i></a>
-								<a href="javascript:void(0)" target="blank"><i class="fab fa-dribbble"></i></a>
-								<a href="javascript:void(0)" target="blank"><i class="fab fa-behance"></i></a>
+						
 							</div>
 							<div class="footer-">
 								<p>Copyright &copy; 2020 BforUS. All rights reserved.</p>
@@ -354,63 +351,32 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content full">
         <div class="modal-header" data-dismiss="modal">
-          <img src="images/logo.png" alt="Logo" width="100"/> <i class="far fa-times-circle"></i>
+          <img src="images/bforus.png" alt="Logo" width="100"/> <i class="fa fa-times-circle"></i>
         </div>
         <div class="menu modal-body">
           <div class="m-nav">
             <nav class="navbar p0">
               <ul class="navbar-nav">
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="homepage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
-                  <div class="dropdown-menu animate slideIn" aria-labelledby="homepage">
-                    <a class="dropdown-item" href="index-2.html">Web Development</a>
-                    <a class="dropdown-item" href="index-dark.html">Web Development - Dark</a>
-                    <a class="dropdown-item" href="index1.html">Digital Marketing</a>
-                    <a class="dropdown-item" href="index1-dark.html">Digital Marketing - Dark</a>
-                    <a class="dropdown-item" href="index2.html">Freelance Portfolio</a>
-                    <a class="dropdown-item" href="index2-dark.html">Freelance Portfolio - Dark</a>
-                    <a class="dropdown-item" href="index3.html">Lead Generation Agency</a>
-                    <a class="dropdown-item" href="index3-dark.html">Lead Generation Agency - Dark</a>
-                  </div>
+                  <a class="nav-link " href="index.html" id="homepage">Home</a>
+                 
                 </li>
-                <li class="nav-item"> <a class="nav-link" href="about.html">About </a>  </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="Services2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services </a>
-                  <div class="dropdown-menu animate slideIn" aria-labelledby="Services2">
-                    <a class="dropdown-item" href="service.html">Service</a>
-                    <a class="dropdown-item" href="service-details.html">Service Details</a>
-                  </div>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="Portfolio2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Portfolio </a>
-                  <div class="dropdown-menu animate slideIn" aria-labelledby="Portfolio2">
-                    <a class="dropdown-item" href="portfolio.html">Portfolio Grid</a>
-                    <a class="dropdown-item" href="portfolio-details.html">Portfolio Details</a>
-                  </div>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="Pages2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Pages </a>
-                  <div class="dropdown-menu animate slideIn" aria-labelledby="Pages2">
-                    <a class="dropdown-item" href="pricing.html">Pricing</a>
-                    <a class="dropdown-item" href="team.html">Team</a>
-                    <a class="dropdown-item" href="team-details.html">Team Single</a>
-                    <a class="dropdown-item" href="case-study.html">Case Study</a>
-                    <a class="dropdown-item" href="case-study-details.html">Case Study Single</a>
-                    <a class="dropdown-item" href="typography.html">Typography</a>
-                    <a class="dropdown-item" href="button.html">Buttons</a>
-                    <a class="dropdown-item" href="faq.html">Accordion & FAQ</a>
-                    <a class="dropdown-item" href="error.html">404 Page</a>
-                    <a class="dropdown-item" href="gradients.html">Background Gradients</a>
-                  </div>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="Blog2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog </a>
-                  <div class="dropdown-menu animate slideIn" aria-labelledby="Blog2">
-                    <a class="dropdown-item" href="blog-grid.html">Blog Grid</a>
-                    <a class="dropdown-item" href="blog-single.html">Blog Single</a>
-                  </div>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="get-quote.html">Contact</a>  </li>
+                <li class="nav-item"> <a class="nav-link" href="">About </a>  </li>
+              <li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="Services" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+							<div class="dropdown-menu animate slideIn" aria-labelledby="Services">
+								<a class="dropdown-item" href="webdevelopment.html">Web Development</a>
+								<a class="dropdown-item" href="graphicdesign.html">Graphic Design</a>
+									<a class="dropdown-item" href="DigitalMarketing.html">Digital Marketing</a>
+										<a class="dropdown-item" href="">Application Development</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link" href="#" id="Portfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Portfolio</a>
+							
+						</li>
+						
+						<li class="nav-item"> <a class="nav-link" href="">Contact</a> </li>
               </ul>
             </nav>
           </div>
@@ -418,7 +384,6 @@
       </div>
     </div>
   </div>
-	<!--scroll to top-->
 	<a id="scrollUp" href="#top"></a>
 	<!-- js placed at the end of the document so the pages load faster -->
 	<script src="js/vendor/modernizr-3.5.0.min.js"></script>
