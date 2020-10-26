@@ -39,7 +39,7 @@ require('header.php');
               <p>Company CEO</p>
             </div>
             <div class="otherinfo">
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum is simply dummy text of the printing and typesetting industry. is simply dummy text of the printing and typesetting industry. </p>
+              <p>I Always had a dream of Starting my own Business and Bring my own creations to in Life. As a Developer it's a challenge to bring someone else dreams creations to life but throughout I had lots of difficulties and barrier that stop me building my own website but now my dream creation is live and improving every day and with that my aim is to bring your creation thought into life..</p>
               <div class="social-media-profile">
                 <a href="mailto:mohammedbori44@gmail.com" target="blank"><i class="fa fa-envelope"></i></a>
                 <a href="https://www.instagram.com/md.taiyab_/" target="blank"><i class="fa fa-instagram"></i></a>

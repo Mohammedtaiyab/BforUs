@@ -872,7 +872,7 @@ box-shadow: 0 3.4px 2.7px -30px rgba(0, 0, 0, 0.059), 0 8.2px 8.9px -30px rgba(0
 .info-text-block h4 a{color: #050748;}
 .full-image-card{margin-top:60px;}
 .otherinfo{    margin: 30px 0 0 0px;}
-.otherinfo p{    line-height: 28px;}
+.otherinfo p{line-height: 28px;text-align: justify;}
 .social-media-profile{    margin: 30px 0 0 0px;}
 .social-media-profile a{
 color: #6a6a8e;
@@ -1855,4 +1855,4 @@ to{
     }
     .block-space-{
         text-transform: uppercase;
-    }
+    
