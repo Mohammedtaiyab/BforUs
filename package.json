@@ -1,0 +1,31 @@
+{
+  "name": "bforus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohammedtaiyab/BforUs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohammedtaiyab/BforUs/issues"
+  },
+  "homepage": "https://github.com/Mohammedtaiyab/BforUs#readme",
+  "dependencies": {
+    "desandro-matches-selector": "^2.0.2",
+    "ev-emitter": "^1.1.1",
+    "fizzy-ui-utils": "^2.0.7",
+    "get-size": "^2.0.3",
+    "isotope-layout": "^3.0.6",
+    "jquery": "^3.5.1",
+    "masonry-layout": "^4.2.2",
+    "outlayer": "^2.1.1",
+    "parcel-bundler": "^1.12.4",
+    "popper.js": "^1.16.1"
+  }
+}
