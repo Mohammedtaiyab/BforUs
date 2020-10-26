@@ -11,8 +11,8 @@
         </div>
       </div>
     </div>
-    <div class="shape shape-a1"><img src="images/shape/shape-3.svg" alt="shape"/></div>
-    <div class="shape shape-a2"><img src="images/shape/shape-4.svg" alt="shape"/></div>
-    <div class="shape shape-a3"><img src="images/shape/shape-13.svg" alt="shape"/></div>
-    <div class="shape shape-a4"><img src="images/shape/shape-11.svg" alt="shape"/></div>
+    <div class="shape shape-a1"><img src="images/i4.png" alt="shape"/></div>
+    <div class="shape shape-a2"><img src="images/i2.png" alt="shape"/></div>
+    <div class="shape shape-a3"><img src="images/i6.png" alt="shape"/></div>
+    <div class="shape shape-a4"><img src="images/i5.png" alt="shape"/></div>
   </section>
