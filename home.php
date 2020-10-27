@@ -78,7 +78,7 @@ require('header.php');
 					<div class="col-lg-3 col-sm-6 mt30">
 					<div class="s-block">
 						<div class="s-card-icon"><img src="images/icons/branding.svg" alt="service" class="img-fluid" /></div>
-						<h4>&nbsp;&nbsp;&nbsp;Graphic &nbsp; &nbsp; &nbsp;Designing</h4>
+						<h4>Graphic Designing</h4>
 						
 						<a href="javascript:void(0)">Coming Soon.. <i class="fa fa-chevron-right fa-icon"></i></a>
 					</div>
@@ -86,7 +86,7 @@ require('header.php');
 				<div class="col-lg-3 col-sm-6 mt30">
 					<div class="s-block mb0">
 						<div class="s-card-icon"><img src="images/icons/marketing.svg" alt="service" class="img-fluid" /></div>
-						<h4>&nbsp;&nbsp; Digital &nbsp;&nbsp;&nbsp;  Marketing</h4>
+						<h4> Digital Marketing</h4>
 						
 						<a href="javascript:void(0)">Coming Soon.. <i class="fa fa-chevron-right fa-icon"></i></a>
 					</div>
@@ -132,7 +132,7 @@ require('header.php');
 								<div class="clients-logo"><a href="portfolio.php"> <img src="images/client/c3.png" alt="text" class="img-fluid" title="Denmal" /></a></div>
 							</li>
 							<li>
-								<div class="clients-logo"><img src="images/client/184317679_aj.png" alt="text" class="img-fluid" style="width: 50%"/></div>
+								<div class="clients-logo"><a href="portfolio.php"><img src="images/client/184317679_aj.png" alt="text" class="img-fluid" style="width: 50%"/></a></div>
 							</li>
 							
 						</ul>

@@ -13,14 +13,14 @@ function active($currect_page){
 <head>
 		<meta charset="utf-8" />
 		<title>BforUS</title>
-		<meta name="description" content="Creative Agency, Marketing Agency Template">
-		<meta name="keywords" content="Creative Agency, Marketing Agency">
-		<meta name="author" content="rajesh-doot">
+		<meta name="description" content="An Team of Freelancers, Working Together to create a platform for every Business Requirement.">
+		<meta name="keywords" content="Web Development Agency, Marketing Agency,Graphic Designer,Digital Marketing,Developer,Development">
+		<meta name="author" content="Mohammed Taiyab">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="theme-color" content="#c7ecff">
 		<!--website-favicon-->
-		<link rel="icon" type="image/png" href="images/favicon.png">
+		<link rel="icon" type="image/png" href="images/apple-touch-icon.png">
 		<!--plugin-css-->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/owl.carousel.min.css" rel="stylesheet">

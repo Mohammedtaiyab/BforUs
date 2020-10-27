@@ -33,7 +33,7 @@
 						<h5>Company</h5>
 						<ul class="footer-address-list link-hover">
 							<li><a href="home.php">About us</a></li>
-							<li><a href="Service.php">Services</a></li>
+							<li><a href="service.php">Services</a></li>
 							<li><a href="portfolio.php">Portfolio</a></li>
 							<li><a href=""></a></li>
 						</ul>
@@ -41,7 +41,7 @@
 					<div class="col-lg-3 col-sm-6">
 						<h5>Service</h5>
 						<ul class="footer-address-list link-hover">
-							<li><a href="Service.php">Website Development</a></li>
+							<li><a href="service.php">Website Development</a></li>
 							<li><a href="#">Mobile App Development</a></li>
 							<li><a href="#">Graphic Design</a></li>
 							<li><a href="#">Digital Marketing</a></li>

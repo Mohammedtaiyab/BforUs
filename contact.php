@@ -36,10 +36,10 @@ require('header.php');
           <div class="full-image-card mt0">
             <div class="info-text-block">
               <h4><a href="#">Mohammed Taiyab</a></h4>
-              <p>Company CEO</p>
+              <p>Web Developer</p>
             </div>
             <div class="otherinfo">
-              <p>I Always had a dream of Starting my own Business and Bring my own creations to in Life. As a Developer it's a challenge to bring someone else dreams creations to life but throughout I had lots of difficulties and barrier that stop me building my own website but now my dream creation is live and improving every day and with that my aim is to bring your creation thought into life..</p>
+              <p>I Always had a Dream of Starting my own Business and Bring my own Creations to in Life. It's a challenge to bring dreams to life, throughout I had lots of Difficulties and Barrier that stop me Building my own Website but now its live and improving every day and with that my Aim is to bring your Dreams into Reality.</p>
               <div class="social-media-profile">
                 <a href="mailto:mohammedbori44@gmail.com" target="blank"><i class="fa fa-envelope"></i></a>
                 <a href="https://www.instagram.com/md.taiyab_/" target="blank"><i class="fa fa-instagram"></i></a>
