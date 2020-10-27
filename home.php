@@ -8,7 +8,7 @@ require('header.php');
 				<div class="row">
 					<div class="col-lg-6 v-center">
 						<div class="single-image">
-							<img src="images/hero/Unilogo.png" alt="web development" class="img-fluid myimg" />
+							<img src="images/Unilogo.png" alt="web development" class="img-fluid myimg" />
 						</div>
 						
 					</div>
