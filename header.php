@@ -31,7 +31,9 @@ function active($currect_page){
 		<link type="text/css" href="css/style.css" rel="stylesheet">
 		<link type="text/css" href="css/responsive.css" rel="stylesheet">
 		<style type="text/css">
-
+			.active a{
+				color: aliceblue;
+			}
 		</style>
 	</head>
 	<body >
