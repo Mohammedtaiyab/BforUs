@@ -83,7 +83,7 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content full">
         <div class="modal-header" data-dismiss="modal">
-          <img src="images/bforus.png" alt="Logo" width="100"/> <i class="fa fa-times-circle"></i>
+          <img src="images/BforUSLogo2.png" alt="Logo" width="100"/> <i class="fa fa-times-circle"></i>
         </div>
         <div class="menu modal-body">
           <div class="m-nav">

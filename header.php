@@ -31,9 +31,7 @@ function active($currect_page){
 		<link type="text/css" href="css/style.css" rel="stylesheet">
 		<link type="text/css" href="css/responsive.css" rel="stylesheet">
 		<style type="text/css">
-			.active a{
-				color: aliceblue;
-			}
+		
 		</style>
 	</head>
 	<body >
@@ -41,7 +39,7 @@ function active($currect_page){
 		<header class="top-header">
 			<nav class="navbar navbar-expand-lg navbar-light justify-content-right navbar-mobile fixed-top">
 				<div class="container">
-					<!-- <a class="navbar-brand" href="index.html"> <img src="images/bforus.png" alt="Logo" width="100" /></a> -->
+					<!-- <a class="navbar-brand" href="index.html"> <img src="images/BforUSLogo2.png" alt="Logo" width="100" /></a> -->
 					<button class="navbar-toggler mobile-none" type="button" data-toggle="collapse" data-target="#navbar4" aria-controls="navbar4" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 					<div class="collapse navbar-collapse animate slideIn mobile-none" id="navbar4">
 					<ul class="mr-auto"></ul>

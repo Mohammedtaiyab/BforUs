@@ -49,7 +49,7 @@ require('header.php');
                   <i class="fa fa-calendar"></i>
                   <p>Project Date: <span>20 Oct 2019</span></p>
                 </li>
-                <li><a href="https://www.ecotionery.com/" target="_blank">Ecotionery.com</a></li>
+                <li><a href="https://www.ecotionery.bforus.in/" target="_blank">Ecotionery.com</a></li>
               </ul>
             </div>
           </div>
@@ -59,7 +59,7 @@ require('header.php');
         <div class="col-lg-12 single-card-item">
           <div class="isotope_item pv-">
           <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.ecotionery.com/index.html" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://www.ecotionery.bforus.in" allowfullscreen></iframe>
 </div>
             </div>
           </div>

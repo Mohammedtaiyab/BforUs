@@ -1645,12 +1645,11 @@ border: 1px solid #29294c;}
                 color: aliceblue;
             }
             .active{
-                    
-                        background: linear-gradient(to right, #90aab9 0%,#11159a 100%);
+                  background: linear-gradient(to right, #196d9e 0%,#c4c5e0 100%);
                             font-size: 16px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
-    padding: 0px 40px;
+    padding: 0px 25px;
     line-height: 56px;
     text-align: center;
     outline: none;
@@ -1660,6 +1659,11 @@ border: 1px solid #29294c;}
     border-radius: 100px;
     display: inline-block;
             }
+.active a{
+    color: white;
+}
+
+
         @keyframes example {
   from {margin-left:316px;  transform: scale(1.1);
  }

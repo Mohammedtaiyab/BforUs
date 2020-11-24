@@ -39,7 +39,7 @@ require('header.php');
               <p>Web Developer</p>
             </div>
             <div class="otherinfo">
-              <p>I Always had a Dream of Starting my own Business and Bring my own Creations to in Life. It's a challenge to bring dreams to life, throughout I had lots of Difficulties and Barrier that stop me Building my own Website but now its live and improving every day and with that my Aim is to bring your Dreams into Reality.</p>
+              <p>I always had a Dream of Starting my own business and bring my Creations to Life. It's a Challenge to bring Dreams to life. I had lots of Difficulties and Barriers that stopped me from Building my Website, but now it's live and improving every day. I aim to bring your Dreams into Reality through my Dreams.</p>
               <div class="social-media-profile">
                 <a href="mailto:mohammedbori44@gmail.com" target="blank"><i class="fa fa-envelope"></i></a>
                 <a href="https://www.instagram.com/md.taiyab_/" target="blank"><i class="fa fa-instagram"></i></a>
