@@ -26,6 +26,9 @@
     <!-- Google Web fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap" rel="stylesheet">
 
     <!-- Font icons -->
     <link rel="stylesheet" href="icon-fonts/fontawesome-5.0.6/css/fontawesome-all.min.css"/>
@@ -34,15 +37,26 @@
     <style type="text/css">
       html,
 body {
-    height: 100%;
+    background: #1488cc;
+    background: linear-gradient(to left, #8b98e4, #7f8f9e);
+  height: 100vh;
+  font-family: "Josefin Sans", sans-serif;
 }
-
 .container {
-    height: 100%;
+    height: 88%;
+    /* padding: 5px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin-top: 16px;
+    width: 60%;
 }
         .ml7 {
   position: relative;
@@ -73,12 +87,58 @@ body {
 .image{
   width: 45rem;
 }
+
+/* Background circles start */
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(#006db3, #29b6f6);
+}
+.circles {
+  position: absolute;
+  height: 270px;
+  width: 450px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.circle-1 {
+    height: 180px;
+    width: 180px;
+    top: -167px;
+    left: -256px;
+}
+.circle-2 {
+  height: 200px;
+  width: 200px;
+  bottom: -167px;
+  right: -256px;
+  opacity: 0.8;
+}
+/* Background circles end */
+
+@media (max-width: 580px){
+.image{
+  width: 30rem;
+}
+.container {
+  width: 80%;
+}
+
+}
     </style>
     </head>
 <body>
+
 <div class="container">
    <div id="particles-js"></div>
+<div>
      <img src="images/bforusLogo.png" alt="BforUS" class="image">
+
+</div>
+
+
+  
       <img src="images/BforUSLogo2.png" alt="BforUS">
         <h6 class="ml7" style="font-size: 20px;">
       <span class="text-wrapper">
@@ -87,7 +147,7 @@ body {
 </h6>
   </div>
 </div>     
-<meta HTTP-EQUIV="Refresh" CONTENT="2.0 ; URL=home.php">
+<!-- <meta HTTP-EQUIV="Refresh" CONTENT="2.0 ; URL=home.php"> -->
  <!-- Javascripts -->
  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="js/jquery-2.1.4.min.js"></script>

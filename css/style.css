@@ -383,10 +383,24 @@ box-shadow:
 0 8.2px 8.9px -30px rgba(0, 0, 0, 0.071),
 0 25px 40px -30px rgba(0, 0, 0, 0.2);}
 .service-section .s-block{
-background: url(../images/shape/shape-7.svg) #fff;
-background-size: 180px;
-background-position: top right;
-background-repeat: no-repeat;}
+    background: url(../images/shape/shape-7.svg);
+         background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(30px);
+    /* border: 2px solid rgba(255, 255, 255, 0.1); */
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-size: 180px;
+    background-position: top right;
+    background-repeat: no-repeat;
+        height: 340px;
+         text-align: center;
+    padding: 50px 20px;
+    margin: 0;
+    position: relative;
+        border: 1px solid #d4f0ff;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
 .s-card-icon {  width: 80px;    margin: 0 auto 30px;}
 .s-block h4 {       margin: 0 0 10px 0;}
 .s-block a{ display: inline-block;    margin: 30px 0 0 0;    color: #050748;    font-family: 'Poppins', sans-serif;}
@@ -1861,3 +1875,5 @@ to{
         text-transform: uppercase;
     
 }
+
+
