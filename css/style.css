@@ -392,7 +392,7 @@ box-shadow:
     background-size: 180px;
     background-position: top right;
     background-repeat: no-repeat;
-        height: 340px;
+        height: 495px;
          text-align: center;
     padding: 50px 20px;
     margin: 0;
@@ -500,23 +500,30 @@ box-shadow: 0 3.4px 2.7px -30px rgba(0, 0, 0, 0.059), 0 8.2px 8.9px -30px rgba(0
 .item-image img {  width: 100%;}
 /**Clients section**/
 .clients-logo{
-background: #ffffff;
+/*background: #ffffff;*/
 padding: 60px 25px;
 max-height: 160px;
 min-height: 160px;
 margin: 0 15px;
-border: 1px solid #d4f0ff;
+/*border: 1px solid #d4f0ff;*/
 align-items: center;
 display: flex;
 position: relative;
-border-radius: 8px;
+/*border-radius: 8px;
 -webkit-box-shadow: -20px 20px 40px #ece0f2, 20px -20px 40px #fff8ff;
-box-shadow: -20px 20px 40px #ece0f2, 20px -20px 40px #fff8ff;}
+box-shadow: -20px 20px 40px #ece0f2, 20px -20px 40px #fff8ff;*/
+     background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(30px);
+    /* border: 2px solid rgba(255, 255, 255, 0.1); */
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+
+}
 .clients-section{
-background: #fffaf5;
+/*background: #fffaf5;
 background: -moz-linear-gradient(top, #fffaf5 0%, #f8ecff 100%);
 background: -webkit-linear-gradient(top, #fffaf5 0%,#f8ecff 100%);
-background: linear-gradient(to bottom, #fffaf5 0%,#f8ecff 100%);}
+background: linear-gradient(to bottom, #fffaf5 0%,#f8ecff 100%);*/}
 .clients-logo img{margin: 0 auto; display: block; }
 .opl ul {display: contents;}
 .opl ul li {   width: 20%;   float: left;   position: relative; }
@@ -977,11 +984,12 @@ margin-top: -12.5px;}
 .bg-lights{   background: #f8ffff url(../images/shape/bg-line.svg);   background-size: 50px;}
 .cta-area{
 position: relative;
-overflow: hidden;
-background: #e0f8ff;
-background: -moz-linear-gradient(top, #e0f8ff 0%, #fff0e5 100%);
+/*overflow: hidden;*/
+background: transparent;
+height: 400px;
+/*background: -moz-linear-gradient(top, #e0f8ff 0%, #fff0e5 100%);
 background: -webkit-linear-gradient(top, #e0f8ff 0%,#fff0e5 100%);
-background: linear-gradient(to bottom, #e0f8ff 0%,#fff0e5 100%);}
+background: linear-gradient(to bottom, #e0f8ff 0%,#fff0e5 100%);*/}
 .btn-outline{
 border: 2px solid #000248;
 color: #050748;
@@ -1876,4 +1884,175 @@ to{
     
 }
 
+.s-block p{
+    text-align: center;
+    padding: 20px;
+}
 
+/* Background circles start */
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(#006db3, #29b6f6);
+}
+.circles {
+  position: absolute;
+  height: 270px;
+  width: 450px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.circle-1 {
+  height: 180px;
+  width: 180px;
+  top: -50px;
+  left: -60px;
+}
+.circle-2 {
+  height: 200px;
+  width: 200px;
+  bottom: -90px;
+  right: -90px;
+  opacity: 0.8;
+}
+/* Background circles end */
+
+.card-group {
+/*  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);*/
+      width: fit-content;
+    margin: -39px 30%;
+}
+
+.card {
+  position: relative;
+  height: 270px;
+  width: 450px;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(30px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+     transition: all .2s ease;
+}
+
+.logo img,
+.chip img,
+.number,
+.name,
+.from,
+.to,
+.ring {
+  position: absolute; /* All items inside card should have absolute position */
+}
+
+.logo img {
+  top: 35px;
+  right: 40px;
+  width: 80px;
+  height: auto;
+  opacity: 0.8;
+}
+
+.chip img {
+  top: 120px;
+  left: 40px;
+  width: 50px;
+  height: auto;
+  opacity: 0.8;
+}
+
+.number,
+.name,
+.from,
+.to {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+}
+
+.number {
+  left: 40px;
+  bottom: 65px;
+  font-family: "Nunito", sans-serif;
+}
+
+.name {
+    font-size: 16px;
+  left: 40px;
+  bottom: 35px;
+}
+
+.from {
+     font-size: 24px;
+    bottom: 35px;
+    right: 65px;
+        z-index: 100;
+}
+
+.to {
+    font-size: 24px;  bottom: 35px;
+  right: 40px;
+      z-index: 100;
+}
+
+/* The two rings on the card background */
+.ring {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  background: transparent;
+  border: 50px solid rgba(255, 255, 255, 0.1);
+  bottom: -250px;
+  right: -250px;
+  box-sizing: border-box;
+}
+
+.ring::after {
+  content: "";
+  position: absolute;
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  background: transparent;
+  border: 30px solid rgba(255, 255, 255, 0.1);
+  bottom: -80px;
+  right: -110px;
+  box-sizing: border-box;
+}
+.chip{
+        padding: 62px 25px;
+        z-index: 100;
+}
+
+.card:hover{
+    transform: perspective(400px) rotateY(2.46667deg) rotateX(3.24658deg);
+}
+.from:hover .card{
+  transform: perspective(400px) rotateY(-2.46667deg) rotateX(-3.24658deg);
+}
+.webpro{
+        background: url(../images/shape/shape-7.svg);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(30px);
+    /* border: 2px solid rgba(255, 255, 255, 0.1); */
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-size: 180px;
+    background-position: top right;
+    background-repeat: no-repeat;
+    height: 300px;
+    text-align: center;
+    padding: 50px 20px;
+    margin: 0;
+    position: relative;
+    border-radius: 8px;
+}
+.circle-2{
+  background: radial-gradient(#4180cc, #1d202300);
+}
