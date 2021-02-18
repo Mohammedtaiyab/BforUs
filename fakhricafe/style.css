@@ -29,7 +29,8 @@
 }
 
 .item__title {
-  font: 19px cookie;
+  font: 19px;
+  font-family: ui-monospace;
   color: var(--wesbos);
   letter-spacing: 1px;
   margin: 0;
