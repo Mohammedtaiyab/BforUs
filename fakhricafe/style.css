@@ -29,8 +29,7 @@
 }
 
 .item__title {
-  font: 19px;
-  font-family: ui-monospace;
+  font: 19px ui-monospace;
   color: var(--wesbos);
   letter-spacing: 1px;
   margin: 0;
