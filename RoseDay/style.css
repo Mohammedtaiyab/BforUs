@@ -196,7 +196,7 @@ body {
 }
 
 .deadPetals > div:nth-child(1) {
-  left: 98px;
+  left: 119px;
   -webkit-transform: rotate(-30deg);
           transform: rotate(-30deg);
   -webkit-animation: falling 20s 4s ease-in-out infinite;
@@ -204,7 +204,7 @@ body {
 }
 
 .deadPetals > div:nth-child(2) {
-  left: 78px;
+  left: 81px;
   -webkit-transform: rotate(-30deg);
           transform: rotate(-30deg);
   -webkit-animation: falling 20s 8s ease-in-out infinite;
@@ -212,7 +212,7 @@ body {
 }
 
 .deadPetals > div:nth-child(3) {
-  left: 98px;
+  left: 94px;
   -webkit-transform: rotate(-30deg);
           transform: rotate(-30deg);
   -webkit-animation: falling 20s 12s ease-in-out infinite;
@@ -220,7 +220,7 @@ body {
 }
 
 .deadPetals > div:nth-child(4) {
-  left: 95px;
+  left: 90px;
   -webkit-transform: rotate(-30deg);
           transform: rotate(-30deg);
   -webkit-animation: falling 20s 16s ease-in-out infinite;

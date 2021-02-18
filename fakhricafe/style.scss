@@ -22,7 +22,7 @@
     }
   
     &__title {
-      font: 19px cookie, cursive;
+      font: 19px cookie;
       color: var(--wesbos);
       letter-spacing: 1px;
       margin: 0;
@@ -37,6 +37,7 @@
     &__price {
       color: var(--wesbos);
       font: 19px cookie, cursive;
+      text-decoration: none;
     }
     
     &__description {
