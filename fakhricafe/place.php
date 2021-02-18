@@ -2,9 +2,9 @@
 // require "PHPMailer/PHPMailerAutoload.php";
 use PHPMailer\src\Exception;
 use PHPMailer\PHPMailer\PHPMailer;
-require 'PHPMailer/src/Exception.php';
-require 'PHPMailer/src/PHPMailer.php';
-require 'PHPMailer/src/SMTP.php';
+require '../PHPMailer/src/Exception.php';
+require '../PHPMailer/src/PHPMailer.php';
+require '../PHPMailer/src/SMTP.php';
 function smtpmailer($to, $from, $from_name, $subject, $body)
     {
         $mail = new PHPMailer();
@@ -40,13 +40,15 @@ function smtpmailer($to, $from, $from_name, $subject, $body)
         }
     }
  
-    
+    $table=$_GET['table'];
     $to='mohammedbori44@gmail.com';
     $from="info@bforus.in";
-    $name= "Mohammed";
+    $name= "Table No:".$table;
     $subj = "Order";
    $msg = "Order Place"; 
-    $error=smtpmailer($to,$from, $name ,$subj, $msg);
+    //$error=smtpmailer($to,$from, $name ,$subj, $msg);
+    if(smtpmailer($to,$from, $name ,$subj, $msg)){
+header('Location:index.html');    }
     
     
 ?>
