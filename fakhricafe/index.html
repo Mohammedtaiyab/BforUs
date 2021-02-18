@@ -5,233 +5,723 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fakhri Cafe</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+<style>
+	.wrapper .container{
+		margin: 0 auto;
+		text-align: center;
+	}
+	.wrapper{
+		text-align: center;
+}
 
+
+
+
+</style>
 </head>
 <body>
-    <section id="our_menu" class="pt-5 pb-5">
+	<div class="wrapper">
+
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="page_title text-center mb-4">
-						<h1>our menu</h1>
-						<div class="single_line"></div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<ul class="nav nav-tabs menu_tab mb-4" id="myTab" role="tablist">
-					<li class="nav-item">
-						<a class="nav-link active" id="breakfast-tab" data-toggle="tab" href="#breakfast" role="tab">Breakfast</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" id="lunch-tab" data-toggle="tab" href="#lunch" role="tab">Lunch</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" id="dinner-tab" data-toggle="tab" href="#dinner" role="tab">Dinner</a>
-					</li>
-				</ul>
-        	</div>
-			<div class="row">
-				<div class="tab-content col-lg-12" id="myTabContent">
-					<div class="tab-pane fade show active" id="breakfast" role="tabpanel" aria-labelledby="breakfast-tab">
-						<div class="row">
-							<div class="col-md-6">
-								<div class="single_menu">
-									<img src="https://i.imgur.com/kbpceNv.jpg" alt="burger">
-									<div class="menu_content">
-										<h4>Chicken Burger  <span>$24</span></h4>
-										<p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
-									</div>
-								</div>
-								<div class="single_menu">
-									<img src="https://i.imgur.com/lYKUORL.jpg" alt="black coffee">
-									<div class="menu_content">
-										<h4>Black coffee <span>$20</span></h4>
-										<p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
-									</div>
-								</div>
-								<div class="single_menu">
-									<img src="https://i.imgur.com/AXAHrf6.jpg" alt="fried rice">
-									<div class="menu_content">
-										<h4>Fried Rice  <span>$45</span></h4>
-										<p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
-									</div>
-								</div>
-								<div class="single_menu">
-									<img src="https://i.imgur.com/YkDi8Nb.jpg" alt="meat">
-									<div class="menu_content">
-										<h4>meat  <span>$24</span></h4>
-										<p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="single_menu">
-									<img src="https://i.imgur.com/TAq7lDR.jpg" alt="burger">
-									<div class="menu_content">
-										<h4>Chicken Burger  <span>$24</span></h4>
-										<p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
-									</div>
-								</div>
-								<div class="single_menu">
-									<img src="https://i.imgur.com/lYKUORL.jpg" alt="black coffee">
-									<div class="menu_content">
-										<h4>Black coffee <span>$20</span></h4>
-										<p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
-									</div>
-								</div>
-								<div class="single_menu">
-									<img src="https://i.imgur.com/AXAHrf6.jpg" alt="fried rice">
-									<div class="menu_content">
-										<h4>Fried Rice  <span>$45</span></h4>
-										<p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
-									</div>
-								</div>
-								<div class="single_menu">
-									<img src="https://i.imgur.com/YkDi8Nb.jpg" alt="meat">
-									<div class="menu_content">
-										<h4>meat  <span>$24</span></h4>
-										<p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="tab-pane fade" id="lunch" role="tabpanel" aria-labelledby="lunch-tab">
-						<div class="row">
-							<div class="col-md-6">
-								<div class="single_menu">
-									<img src="https://i.imgur.com/Aowufa1.jpg" alt="pizza">
-									<div class="menu_content">
-										<h4>12" Pizza  <span>$35</span></h4>
-										<p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
-									</div>
-								</div>
-								<div class="single_menu">
-									<img src="https://i.imgur.com/DJlmZDJ.jpg" alt="salad">
-									<div class="menu_content">
-										<h4>Salad <span>$20</span></h4>
-										<p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
-									</div>
-								</div>
-								<div class="single_menu">
-									<img src="https://i.imgur.com/knnQm7e.jpg" alt="green tea">
-									<div class="menu_content">
-										<h4>green tea <span>$15</span></h4>
-										<p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
-									</div>
-								</div>
-								<div class="single_menu">
-									<img src="https://i.imgur.com/YkDi8Nb.jpg" alt="meat">
-									<div class="menu_content">
-										<h4>meat  <span>$24</span></h4>
-										<p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="single_menu">
-									<img src="https://i.imgur.com/kbpceNv.jpg" alt="burger">
-									<div class="menu_content">
-										<h4>Chicken Burger  <span>$24</span></h4>
-										<p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
-									</div>
-								</div>
-								<div class="single_menu">
-									<img src="https://i.imgur.com/lYKUORL.jpg" alt="black coffee">
-									<div class="menu_content">
-										<h4>Black coffee <span>$20</span></h4>
-										<p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
-									</div>
-								</div>
-								<div class="single_menu">
-									<img src="https://i.imgur.com/AXAHrf6.jpg" alt="fried rice">
-									<div class="menu_content">
-										<h4>Fried Rice  <span>$45</span></h4>
-										<p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
-									</div>
-								</div>
-								<div class="single_menu">
-									<img src="https://i.imgur.com/YkDi8Nb.jpg" alt="meat">
-									<div class="menu_content">
-										<h4>meat  <span>$24</span></h4>
-										<p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="tab-pane fade" id="dinner" role="tabpanel" aria-labelledby="dinner-tab">
-						<div class="row">
-							<div class="col-md-6">
-								<div class="single_menu">
-									<img src="https://i.imgur.com/kbpceNv.jpg" alt="burger">
-									<div class="menu_content">
-										<h4>Chicken Burger  <span>$24</span></h4>
-										<p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
-									</div>
-								</div>
-								<div class="single_menu">
-									<img src="https://i.imgur.com/lYKUORL.jpg" alt="black coffee">
-									<div class="menu_content">
-										<h4>Black coffee <span>$20</span></h4>
-										<p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
-									</div>
-								</div>
-								<div class="single_menu">
-									<img src="https://i.imgur.com/AXAHrf6.jpg" alt="fried rice">
-									<div class="menu_content">
-										<h4>Fried Rice  <span>$45</span></h4>
-										<p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
-									</div>
-								</div>
-								<div class="single_menu">
-									<img src="https://i.imgur.com/YkDi8Nb.jpg" alt="meat">
-									<div class="menu_content">
-										<h4>meat  <span>$24</span></h4>
-										<p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="single_menu">
-									<img src="https://i.imgur.com/kbpceNv.jpg" alt="burger">
-									<div class="menu_content">
-										<h4>Chicken Burger  <span>$24</span></h4>
-										<p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
-									</div>
-								</div>
-								<div class="single_menu">
-									<img src="https://i.imgur.com/lYKUORL.jpg" alt="black coffee">
-									<div class="menu_content">
-										<h4>Black coffee <span>$20</span></h4>
-										<p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
-									</div>
-								</div>
-								<div class="single_menu">
-									<img src="https://i.imgur.com/AXAHrf6.jpg" alt="fried rice">
-									<div class="menu_content">
-										<h4>Fried Rice  <span>$45</span></h4>
-										<p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
-									</div>
-								</div>
-								<div class="single_menu">
-									<img src="https://i.imgur.com/YkDi8Nb.jpg" alt="meat">
-									<div class="menu_content">
-										<h4>meat  <span>$24</span></h4>
-										<p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<a href="place.php?table=1" class=" menu_btn btn btn-danger">Place Order</a>
-			</div>
+			<img src="FAKHRI_CAFE.png" alt="" width="50%">
+		
+
 		</div>
-	</section>
-</body>
+		<h2>Our Menu</h2>
+		<div class="buttons-container">
+		  <a href="#" class="button button--is-active" data-target="Snacks">Snacks</a>
+		  <a href="#" class="button" data-target="Foot">Foot Longs</a>
+		  <a href="#" class="button" data-target="Sandwich">Sandwich</a>
+		  <a href="#" class="button" data-target="Burger">Burger</a>
+		  <a href="#" class="button" data-target="Pizza">Pizza</a>
+		  <a href="#" class="button" data-target="Garlic">Garlic Bread</a>
+		  <a href="#" class="button" data-target="Pasta">Pasta</a>
+		  <a href="#" class="button" data-target="Combo">Combo Meal</a>
+		  <a href="#" class="button" data-target="Mocktails">Mocktails</a>
+		  <a href="#" class="button" data-target="Shakes">Milk Shakes</a>
+		  <a href="#" class="button" data-target="Beverages">Beverages</a>
+		  <a href="#" class="button" data-target="Chai">Chai</a>
+		</div>
+	  
+		<!-- Start Pizza Menu -->
+		<div class="menu menu--is-visible" id="Snacks">
+			<div class="container">
+				<h2>Veg-Snacks</h2>	
+			</div>
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Frensh Fries</h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">₹90</span>
+			</div>
+		  </div>
+	  
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Masala Fries</h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">₹100</span>
+			</div>
+		
+		  </div>
+	  
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Cheesy Frensh Fries</h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">₹110</span>
+			</div>
+			<!-- <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p> -->
+		  </div>
+	  
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Patato Chili Bites</h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">₹90</span>
+			</div>
+		  </div>
+
+
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Tandoori Veg Nugets</h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">₹100</span>
+			</div>
+		  </div>
+	  
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Patato Wegis</h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">₹100</span>
+			</div>
+		  </div>
+
+
+
+
+		  <div class="container">
+			<h2>Non Veg-Snacks</h2>	
+		</div>
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Chicken Pops</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">₹150</span>
+		</div>
+	  </div>
+  
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Chicken Nugets</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">₹160</span>
+		</div>
+	
+	  </div>
+  
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Chicken Seekh Kabab</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">₹160</span>
+		</div>
+		<!-- <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p> -->
+	  </div>
+  
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Chicken Fingers</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">₹160</span>
+		</div>
+	  </div>
+		</div> <!-- End Pizza Menu -->
+	  
+		<!-- Start Coffee Menu -->
+		<div class="menu" id="Sandwich">
+			<div class="container">
+				<h2>Veg-Sandwich</h2>	
+			</div>
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Veg Grill Sandwich</h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">₹70</span>
+			</div>
+		  </div>
+	  
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Cheese Grill Sandwich</h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">₹80</span>
+			</div>
+		
+		  </div>
+	  
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Aloo Tikka Sandwich</h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">₹90</span>
+			</div>
+			<!-- <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p> -->
+		  </div>
+	  
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Fakhri Special </h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">₹100</span>
+			</div>
+		  </div>
+
+
+		  <div class="container">
+			<h2>Non Veg</h2>	
+		</div>
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Chicken Grill Sandwich</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">₹90</span>
+		</div>
+	  </div>
+  
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Chicken Tikka Sandwich</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">₹100</span>
+		</div>
+	
+	  </div>
+  
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Chicken Kabab Sandwich</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">₹120</span>
+		</div>
+		<!-- <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p> -->
+	  </div>
+  
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Chicken BBQ Sandwich</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">₹120</span>
+		</div>
+	  </div>
+
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Chicken Cheese Sandwich</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">₹130</span>
+		</div>
+	  </div>
+
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Fakhri Special Chicken</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">₹140</span>
+		</div>
+	  </div>
+		</div> <!-- End Coffee Menu -->
+	  
+
+
+
+
+
+
+
+
+
+
+		<!-- Start Noodles Menu -->
+		<div class="menu" id="Foot">
+		 		<div class="container">
+				<h2>Veg-FootLongs</h2>	
+			</div>
+			<div class="item">
+				<div class="item__header">
+				 <h3 class="item__title">Size</h3>
+				   <span class="item__dots"></span> 
+				  <span class="item__price">SML/REG/MED</span>
+				</div>
+			  </div>
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Shuddh Veg </h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">90/140/200</span>
+			</div>
+		  </div>
+	  
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Italian Veg</h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">100/160/220</span>
+			</div>
+		
+		  </div>
+	  
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Paneer Tikka</h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">100/170/230</span>
+			</div>
+			<!-- <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p> -->
+		  </div>
+	  
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Paneer Spicy</h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">100/170/230</span>
+			</div>
+		  </div>
+
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Cheesey Blast </h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">110/180/240</span>
+			</div>
+		  </div>
+		  <div class="container">
+			<h2>Non Veg</h2>	
+		</div>
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Simply Chicken</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">90/150/240</span>
+		</div>
+	  </div>
+  
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Chicken Spicy</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">100/160/250</span>
+		</div>
+	
+	  </div>
+  
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Chicken Tikka</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">120/180/300</span>
+		</div>
+		<!-- <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p> -->
+	  </div>
+  
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Chicken BBQ</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">130/190/310</span>
+		</div>
+	  </div>
+
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Chicken Cheese Overloaded</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">150/210/380</span>
+		</div>
+	  </div>
+
+		</div> <!-- End Noodles Menu -->
+	  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="menu" id="Burger">
+			<div class="container">
+				<h2>Veg-Burger</h2>	
+			</div>
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Aloo Tikki Burger</h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">₹50</span>
+			</div>
+		  </div>
+	  
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Super Aloo Tikki Burger</h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">₹55</span>
+			</div>
+		
+		  </div>
+	  
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Veg Popular Burger</h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">₹70</span>
+			</div>
+			<!-- <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p> -->
+		  </div>
+	  
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Veg Spicy Burger</h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">₹75</span>
+			</div>
+		  </div>
+
+
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Veg Cheese Burger</h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">₹80</span>
+			</div>
+		  </div>
+	  
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Double Decker Burger</h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">₹110</span>
+			</div>
+		  </div>
+
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Fakhri Special veg Burger</h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">₹70</span>
+			</div>
+		  </div>
+
+
+		  <div class="container">
+			<h2>Non Veg-Burger</h2>	
+		</div>
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Super Chicken Burger</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">₹70</span>
+		</div>
+	  </div>
+  
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Regular Chicken Burger</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">₹80</span>
+		</div>
+	
+	  </div>
+  
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Chicken Chili Lava Burger</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">₹90</span>
+		</div>
+		<!-- <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p> -->
+	  </div>
+  
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Chicken Cheesy Burger</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">₹100</span>
+		</div>
+	  </div>
+
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Chicken Double Decker </h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">₹140</span>
+		</div>
+		<!-- <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p> -->
+	  </div>
+  
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Fakhri Special Chicken </h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">₹100</span>
+		</div>
+	  </div>
+
+		</div> <!-- End Pizza Menu -->
+	  
+		<!-- Start Coffee Menu -->
+		<div class="menu" id="Pizza">
+			<div class="container">
+				<h2>Veg-Pizza</h2>	
+			</div>
+			<div class="item">
+				<div class="item__header">
+				  <h3 class="item__title">Size</h3>
+				  <span class="item__dots"></span>
+				  <span class="item__price">SML/REG/MED</span>
+				</div>
+			  </div>
+			<div class="item">
+				<div class="item__header">
+				  <h3 class="item__title">Magrita Simple Chessy</h3>
+				  <span class="item__dots"></span>
+				  <span class="item__price">80/140/200</span>
+			
+				</div>
+				<p class="item__description">(Simple Cheesy)</p>
+			  </div>
+	  
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Shuddh Veg Pizza</h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">100/180/260</span>
+			</div>
+			<p class="item__description">(Cheese,Onoin,Capsicum, Tomato)</p>
+		  </div>
+	  
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Aloo Tikka Sandwich</h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">₹90</span>
+			</div>
+			<!-- <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p> -->
+		  </div>
+	  
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Fakhri Special </h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">₹100</span>
+			</div>
+		  </div>
+
+
+		  <div class="container">
+			<h2>Non Veg-Pizza</h2>	
+		</div>
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Magrita Simple Chessy</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">₹80/140/200</span>
+		</div>
+	  </div>
+  
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Chicken Tikka Sandwich</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">₹100</span>
+		</div>
+	
+	  </div>
+  
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Chicken Kabab Sandwich</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">₹120</span>
+		</div>
+		<!-- <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p> -->
+	  </div>
+  
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Chicken BBQ Sandwich</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">₹120</span>
+		</div>
+	  </div>
+
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Chicken Cheese Sandwich</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">₹130</span>
+		</div>
+	  </div>
+
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Fakhri Special Chicken</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">₹140</span>
+		</div>
+	  </div>
+		</div> <!-- End Coffee Menu -->
+	  
+
+
+
+
+
+
+
+
+
+
+		<!-- Start Noodles Menu -->
+		<div class="menu" id="Foot">
+		 		<div class="container">
+				<h2>Veg-FootLongs</h2>	
+			</div>
+			<div class="item">
+				<div class="item__header">
+				 <h3 class="item__title">Size</h3>
+				   <span class="item__dots"></span> 
+				  <span class="item__price">SML/REG/MED</span>
+				</div>
+			  </div>
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Shuddh Veg </h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">90/140/200</span>
+			</div>
+		  </div>
+	  
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Italian Veg</h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">100/160/220</span>
+			</div>
+		
+		  </div>
+	  
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Paneer Tikka</h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">100/170/230</span>
+			</div>
+			<!-- <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p> -->
+		  </div>
+	  
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Paneer Spicy</h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">100/170/230</span>
+			</div>
+		  </div>
+
+		  <div class="item">
+			<div class="item__header">
+			  <h3 class="item__title">Cheesey Blast </h3>
+			  <span class="item__dots"></span>
+			  <span class="item__price">110/180/240</span>
+			</div>
+		  </div>
+		  <div class="container">
+			<h2>Non Veg</h2>	
+		</div>
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Simply Chicken</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">90/150/240</span>
+		</div>
+	  </div>
+  
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Chicken Spicy</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">100/160/250</span>
+		</div>
+	
+	  </div>
+  
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Chicken Tikka</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">120/180/300</span>
+		</div>
+		<!-- <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p> -->
+	  </div>
+  
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Chicken BBQ</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">130/190/310</span>
+		</div>
+	  </div>
+
+	  <div class="item">
+		<div class="item__header">
+		  <h3 class="item__title">Chicken Cheese Overloaded</h3>
+		  <span class="item__dots"></span>
+		  <span class="item__price">150/210/380</span>
+		</div>
+	  </div>
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	  </div> <!-- End Wrapper -->
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+	</body>
 </html>
