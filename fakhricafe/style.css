@@ -29,7 +29,7 @@
 }
 
 .item__title {
-  font: 19px ui-monospace;
+  font: 19px cookie, cursive;
   color: var(--wesbos);
   letter-spacing: 1px;
   margin: 0;
@@ -46,7 +46,6 @@
 .item__price {
   color: var(--wesbos);
   font: 19px cookie, cursive;
-  text-decoration: none;
 }
 
 .item__description {
