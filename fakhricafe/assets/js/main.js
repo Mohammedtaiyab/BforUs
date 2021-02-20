@@ -375,7 +375,7 @@
   -------------------------------------------------------------------------------*/
   $(".menu-category-slider").slick({
     slidesToShow: 8,
-    slidesToScroll: 3,
+    slidesToScroll: 2,
     arrows: false,
     dots: false,
     responsive: [
